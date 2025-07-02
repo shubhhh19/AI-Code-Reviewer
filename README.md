@@ -1,10 +1,11 @@
 # AI Code Reviewer
+Checkout the Website: https://ai-code-reviewer-navy.vercel.app/
 
 A full-stack web application for intelligent, context-aware code reviews using AI. Paste or upload your code and receive detailed feedback on bugs, optimizations, best practices, and security concerns.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **AI-Powered Code Review:** Uses Anthropic Claude for deep, context-aware code analysis.
 - **Multi-Language Support:** 20+ programming languages, with automatic detection.
@@ -12,13 +13,10 @@ A full-stack web application for intelligent, context-aware code reviews using A
 - **Code History:** View and revisit past code reviews.
 - **Code Explain:** Get brief, AI-generated explanations for code snippets.
 - **File Upload & Editor:** Paste code or upload files; syntax highlighting included.
-- **Informational Footer:** About, Features, Supported Languages, and credits.
-- **Report Issues:** Quick access to report bugs or feedback.
-- **Clear Buttons:** Instantly clear code input or explanations.
 
 ---
 
-## 🛠️ Installation & Run Instructions
+## Installation & Run Instructions
 
 ### Prerequisites
 - **Python 3.11+** (for backend)
@@ -81,7 +79,7 @@ python src/main.py
 
 ---
 
-## ✨ Interesting Parts During the Build Process
+## Interesting Parts During the Build Process
 
 - **AI Service Integration:**
   - Started with Google Gemini, then Hugging Face (GPT-2, StarCoder, etc.), and finally Anthropic Claude for best results and reliability.
@@ -91,14 +89,10 @@ python src/main.py
 - **UI/UX Polish:**
   - Iteratively improved the UI for whitespace, clarity, and modern feel.
   - Added history, code explain, and clear buttons for better usability.
-- **Commit History:**
-  - Created a realistic, job-ready commit history with staged, backdated commits and proper .gitignore.
-- **Deployment Ready:**
-  - Structured for easy deployment to platforms like Railway, Render, Vercel, or Netlify.
 
 ---
 
-## 🧩 Difficulties Faced & Solutions
+## Difficulties Faced & Solutions
 
 - **AI Model Access:**
   - *Problem:* Many Hugging Face models were unavailable or required payment.
@@ -106,32 +100,15 @@ python src/main.py
 - **API Proxying & CORS:**
   - *Problem:* Frontend 404 errors and CORS issues.
   - *Solution:* Configured Vite proxy and Flask CORS settings.
-- **Sensitive Files in Git:**
-  - *Problem:* Accidentally pushed large or sensitive files (venv, .env, node_modules).
-  - *Solution:* Added a robust .gitignore and re-initialized the repo.
-- **UI Complexity:**
-  - *Problem:* Balancing minimalism with feature-richness.
-  - *Solution:* Iterative design, user feedback, and modular React components.
 - **Deployment:**
   - *Problem:* Ensuring smooth deployment and environment variable management.
   - *Solution:* Documented clear instructions and tested on multiple platforms.
 
 ---
 
-## 🖼️ Screenshots
-
-> **Add your screenshots here!**
-> - Place images in `frontend/public/` or use external links.
-> - Example:
->
-> ![Home Page](frontend/public/screenshot-home.png)
-> ![Code Review Result](frontend/public/screenshot-result.png)
-
----
-
-## 📄 License
-MIT
-
+## Screenshots
+<img src="https://github.com/user-attachments/assets/fce716c3-69b4-4c7c-91e5-f0321228cb4d" alt="Home Page" width="1000"/>
+<img src="https://github.com/user-attachments/assets/f0b5ee0d-893d-4438-a1ae-30417737bdeb" alt="Home Page" width="1000"/>
 ---
 
 **Built with ❤️ by Shubh Soni. [Portfolio](https://shubhsoni.me)**
