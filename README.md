@@ -1,5 +1,5 @@
 # CodeSniff
-Checkout the Website: https://codesniff.vercel.app/
+Checkout the Website: https://ai-code-reviewer-navy.vercel.app/
 
 A full-stack web application for intelligent, context-aware code reviews using AI. Paste or upload your code and receive detailed feedback on bugs, optimizations, best practices, and security concerns.
 
